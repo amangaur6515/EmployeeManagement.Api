@@ -20,7 +20,7 @@ namespace EmployeeManagement.Api.Controllers
             
         }
 
-        [HttpGet("Employeees")]
+        [HttpGet]
         public IActionResult Employees()
         {
             
